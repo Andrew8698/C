@@ -117,7 +117,7 @@ void PrintArray(int[] array)
 {
     int count = array.Length;
 
-    for(int = 1; i < count; i++)
+    for(int i = 1; i < count; i++)
     {
         Console.Write($"{array[i]} ");
     }
@@ -126,11 +126,11 @@ void PrintArray(int[] array)
 
 void SelectionSort(int[] array);
 {
-    for(int = 0; i < array.Lenght - 1; i++ )
+    for(int i = 0; i < array.Lenght - 1; i++ )
     {
         int minPosition = i;
 
-        for(j = i +1; j < array.Lenght; j++)
+        for( int j = i +1; j < array.Lenght; j++)
         {
             if(array[j] < array[minPosition]) minPosition = j;
         }
